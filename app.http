@@ -1,0 +1,7 @@
+GET http://localhost:3000/products/
+
+###API-1
+POST http://localhost:3000/products/
+Content-Type: application/json
+
+[{"productId":123,"quantity":17,"operation":"subtract"}]
