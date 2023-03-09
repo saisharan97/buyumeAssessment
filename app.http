@@ -4,4 +4,6 @@ GET http://localhost:3000/products/
 POST http://localhost:3000/products/
 Content-Type: application/json
 
-[{"productId":123,"quantity":17,"operation":"subtract"}]
+[{"productId":1,"quantity":17,"operation":"subtract"},
+{"productId":2,"quantity":17,"operation":"subtract"},
+{"productId":3,"quantity":17,"operation":"subtract"}]
